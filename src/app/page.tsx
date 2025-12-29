@@ -60,7 +60,7 @@ const LINKS = {
   linkedin: "https://www.linkedin.com/in/thakare26/",
   email: "thackarey.akshay@gmail.com",
   // Optional: put your resume PDF link here (Google Drive share link / hosted pdf)
-  resume: "https://drive.google.com/uc?export=download&id=1YraFKt-d6X9BpZbRKCxxnN-7H-mLHmd_",
+  resume: "https://drive.google.com/file/d/1YraFKt-d6X9BpZbRKCxxnN-7H-mLHmd_/view?usp=sharing"
 };
 
 export default function Page() {
@@ -112,10 +112,10 @@ export default function Page() {
               <a
                 className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 text-sm font-semibold hover:bg-white/10"
                 href={LINKS.resume}
-                target={LINKS.resume === "#" ? undefined : "_blank"}
-                rel={LINKS.resume === "#" ? undefined : "noreferrer"}
+                target="_blank"
+                rel="noreferrer"
               >
-                Download Resume <ExternalLink size={16} />
+                View Resume <ExternalLink size={16} />
               </a>
             </div>
 
