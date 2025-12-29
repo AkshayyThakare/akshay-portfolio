@@ -60,7 +60,7 @@ const LINKS = {
   linkedin: "https://www.linkedin.com/in/thakare26/",
   email: "thackarey.akshay@gmail.com",
   // Optional: put your resume PDF link here (Google Drive share link / hosted pdf)
-  resume: "#",
+  resume: "https://drive.google.com/file/d/1yTK7e20Z5mWE9GnN-uYfutfE2ivpbUCG/view?usp=sharing",
 };
 
 export default function Page() {
