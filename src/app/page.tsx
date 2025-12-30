@@ -19,6 +19,15 @@ const projects = [
     highlight: "Featured",
   },
   {
+  title: "Stock Data Insights Platform",
+  description:
+    "End-to-end data analytics platform analyzing 800K+ NSE stock records using Python and Tableau to uncover trends, volumes, and trading insights.",
+  tech: ["Python", "Tableau", "EDA", "Data Analytics"],
+  tags: "/projects/stock-data-insights/dashboard_overview.png",
+  repo: "https://github.com/AkshayyThakare/stock-data-insights",
+  highlight: "Featured"
+  },
+  {
     title: "Machine Learning Projects",
     description:
       "Notebook-based ML projects including supervised learning workflows and reinforcement learning (Q-Learning & Deep Q Networks).",
